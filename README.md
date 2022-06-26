@@ -1,9 +1,9 @@
 # Mission to Mars Web App
 
-# Purpose:
+## Purpose:
 Create a web app to scrape the latest Mars news from MARS Planet Science, feature the latest Mars image from Jet Propulsion Laboratory, display Mars Facts from Galaxy Facts, and showcase Mars Hemisphere images from Mars Hemispheres’ website.
 
-# Resources:
+## Resources:
 - MARS Planet Science (https://redplanetscience.com)
 - Jet Propulsion Laboratory (https://spaceimages-mars.com)
 - Galaxy Facts (https://galaxyfacts-mars.com)
