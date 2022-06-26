@@ -10,13 +10,13 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
   </head>
-  <body style="background-color: rgb(250, 245, 243); color: black">
+  <body style="background-color: #695548; color: white">
     <div class="container">
       <!-- Add Jumbotron to Header -->
-      <div style="background-color: CCCCCC"; class="jumbotron text-center">
+      <div style="background-color: #b27551"; opacity=0.5; class="jumbotron text-center">
         <h1><b>Mission to Mars</h1></b>
         <!-- Add a button to activate scraping script -->
-        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button"><b>Scrape New Data</b></a></p>
       </div>
 
       <!-- Add section for Mars News -->
@@ -48,7 +48,7 @@
         <div class="col-md-4">
           <!-- Mars Facts -->
           <div class="row" id="mars-facts">
-            <h4><b>Mars Facts</h4></b>
+            <h2><b>Mars Facts</h2></b>
             {{ mars.facts | safe }}
           </div>
         </div>
@@ -65,12 +65,22 @@
           <div class="thumbnail">
             <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" alt="...">
             <div class="caption">
-              <h3>{{hemisphere.title}}</h3>
+              <h3 text-center>{{hemisphere.title}}</h3>
             </div>
           </div>
         </div>
         {% endfor %}
       </div>
     </div>
+    <br>
+    <div class="col-md-12 text-center">
+      <div id="footer">Web App Resources
+        <ul>
+          <li style="display: inline;"><a href="https://redplanetscience.com">https://redplanetscience.com</a> |</li>
+          <li style="display: inline;"><a href="https://spaceimages-mars.com">https://spaceimages-mars.com</a> |</li>
+          <li style="display: inline;"><a href="https://galaxyfacts-mars.com">https://galaxyfacts-mars.com</a> |</li>
+          <li style="display: inline;"><a href="https://marshemispheres.com">https://marshemispheres.com</a></li>
+        </ul> 
+      </div>
   </body>
 </html>
