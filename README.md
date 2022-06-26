@@ -9,4 +9,4 @@ Create a web app to scrape the latest Mars news from MARS Planet Science, featur
 - Galaxy Facts (https://galaxyfacts-mars.com)
 - Mars Hemisphere (https://marshemispheres.com)
 
-![mission-to-mars](https://github.com/frlinh/mission-to-mars/blob/ff6ad63312f1defd659da0fca902bffc9067cd45/mission-to-mars.png)
+![mission-to-mars](https://github.com/frlinh/mission-to-mars/blob/09abea82e2445f148ad6b11e249db7c2c517879d/mission-to-mars2.png)
